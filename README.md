@@ -1,6 +1,7 @@
-# Melanoma Detection
+# Melanoma Detection using CNN Models:
 
 > A CNN-based model to accurately detect melanoma, a type of skin cancer that accounts for 75% of skin cancer deaths. This solution evaluates images and alerts dermatologists about the presence of melanoma, potentially reducing manual diagnostic effort.
+
 
 ## Table of Contents
 - [Problem Statement](#problem-statement)
@@ -12,11 +13,10 @@
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 
-## Problem Statement
 
-### Business Understanding
+## Problem Statement:
 
-# Problem Statement:
+### Business Understanding:
 
 Develop a custom Convolutional Neural Network (CNN) in TensorFlow to accurately detect melanoma, a potentially fatal skin cancer that accounts for 75% of skin cancer-related deaths if not detected early. This model aims to analyze medical images and assist dermatologists by identifying the presence of melanoma, thereby reducing the manual effort required in diagnosis.
 
@@ -35,17 +35,16 @@ The dataset includes the following skin conditions:
 * Vascular lesion
 
 
-### Business Goal
-
+### Business Goal:
 
 Using this data, the goal is to build a robust multiclass classification model to effectively differentiate between these nine distinct skin conditions.
 
 
-### Business Risk
+### Business Risk:
 
 - Incorrect classification of skin cancer poses significant health risks.
 
-## Project Pipeline
+## Project Pipeline:
 
 1. **Data Reading/Data Understanding**: Define the path for train and test images.
 2. **Dataset Creation**: Create train & validation datasets with a batch size of 32. Resize images to 180x180.
@@ -60,7 +59,7 @@ Using this data, the goal is to build a robust multiclass classification model t
 8. **Final Model Training**: Train the model for ~30 epochs on the augmented and balanced data.
 
 
-## Technologies Used
+## Technologies Used:
 - `pandas` - 1.3.4
 - `numpy` - 1.20.3
 - `matplotlib` - 3.4.3
